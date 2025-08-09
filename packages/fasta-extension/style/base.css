@@ -1,0 +1,24 @@
+/**
+  Copyright (c) Jupyter Development Team.
+  Distributed under the terms of the Modified BSD License.
+*/
+
+@import 'msa.css';
+
+/* Add CSS variables to :root */
+:root {
+  --jp-icon-msa: url('./msa.svg');
+}
+
+/* stylelint-disable selector-class-pattern */
+
+/* Base styles */
+.jp-RenderedMSA {
+  margin: 10px;
+  overflow-y: auto;
+}
+
+/* Document icon */
+.jp-MSAIcon {
+  background-image: var(--jp-icon-msa);
+}
